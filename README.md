@@ -1,3 +1,3 @@
 # firure
 
-https://vladsharko.github.io/firure/
+https://vladsharko.github.io/figure/
