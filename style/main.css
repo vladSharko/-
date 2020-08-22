@@ -1,0 +1,102 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.wrap {
+	position: relative;
+	width: 1000px;
+	height: 1000px;
+	margin: 0 auto;
+}
+
+.big-square {
+	position: relative;
+	width: 50%;
+	height: 50%;
+	top:25%;
+	left: 25%;
+	background: #00A2FF;
+	z-index: 10;
+}
+.big-square:hover {
+	position: relative;
+	width: 50%;
+	height: 50%;
+	top: 25%;
+	left: 25%;
+	background: #757575;
+	z-index: 20;
+}
+
+.small-square {
+	position: absolute;
+	width: 25%;
+	height: 25%;
+	top: 37.5%;
+	left: 37.5%;
+	background: #F8BA00;
+	border-radius: 10%;
+	z-index: 15;
+}
+
+.circle {
+	position: absolute;
+    background-color: #EE220C;
+    width: 30%;
+    height: 30%;
+	border-radius: 50%;
+	z-index: 5;
+}
+
+.top-left {
+	top: 10%;
+    left: 10%;
+}
+
+.top-left:hover {
+	top: 10%;
+	left: 10%;
+	background: #00FFC4;
+	z-index: 15;
+}
+
+.top-right {
+	top: 10%;
+	right: 10%;
+}
+
+.top-right:hover {
+	top: 10%;
+	right: 10%;
+	background: #90FF00;
+	z-index: 15;
+}
+
+.bottom-left {
+	bottom: 10%;
+	right: 10%;
+}
+
+.bottom-left:hover {
+	bottom: 10%;
+	right: 10%;
+	background: #FF005E;
+	z-index: 15;
+}
+
+.bottom-right {
+	bottom: 10%;
+	left: 10%;
+}
+
+.bottom-right:hover {
+	bottom: 10%;
+	left: 10%;
+	background: #5000FF;
+	z-index: 15;
+}
